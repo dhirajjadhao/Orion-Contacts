@@ -7,21 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CDDD38B64C664D0EE925A38 /* Pods_Orion_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0C3332569D0118E09A15C1 /* Pods_Orion_Contacts.framework */; };
+		FF26D79B1D0548D500D794AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26D79A1D0548D500D794AD /* Constants.swift */; };
+		FF4F45FD1D056EFA00C5B7C1 /* UtilMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4F45FC1D056EFA00C5B7C1 /* UtilMethods.swift */; };
 		FF5C7E971D00B00900182DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C7E961D00B00900182DCE /* AppDelegate.swift */; };
-		FF5C7E991D00B00900182DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C7E981D00B00900182DCE /* ViewController.swift */; };
 		FF5C7E9C1D00B00900182DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C7E9A1D00B00900182DCE /* Main.storyboard */; };
 		FF5C7E9E1D00B00900182DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5C7E9D1D00B00900182DCE /* Assets.xcassets */; };
 		FF5C7EA11D00B00900182DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C7E9F1D00B00900182DCE /* LaunchScreen.storyboard */; };
+		FF5C7EAF1D00B50000182DCE /* OrionContactsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C7EAE1D00B50000182DCE /* OrionContactsDataModel.swift */; };
+		FFB810AD1D02D7F500AC3E29 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB810AC1D02D7F500AC3E29 /* ContactsList.swift */; };
+		FFB810AF1D02D80C00AC3E29 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB810AE1D02D80C00AC3E29 /* ContactDetails.swift */; };
+		FFB810B21D02D86300AC3E29 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB810B11D02D86300AC3E29 /* ContactCell.swift */; };
+		FFC0B7921D02EB9500DC5BA2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0B7911D02EB9500DC5BA2 /* Alamofire.framework */; };
+		FFC0B7951D02EB9500DC5BA2 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0B7941D02EB9500DC5BA2 /* Eureka.framework */; };
+		FFC0B7981D02EB9500DC5BA2 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0B7971D02EB9500DC5BA2 /* ObjectMapper.framework */; };
+		FFC0B79B1D02EB9500DC5BA2 /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0B79A1D02EB9500DC5BA2 /* ReachabilitySwift.framework */; };
+		FFC0B79E1D02EB9500DC5BA2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0B79D1D02EB9500DC5BA2 /* Realm.framework */; };
+		FFC0B7A11D02EB9500DC5BA2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0B7A01D02EB9500DC5BA2 /* RealmSwift.framework */; };
+		FFC0B7A41D02EB9500DC5BA2 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0B7A31D02EB9500DC5BA2 /* SVProgressHUD.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FFC0B7A61D02EB9600DC5BA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		17EA07E995AD1BA4118F4431 /* Pods-Orion Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orion Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orion Contacts/Pods-Orion Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		8275A60D6AE45A50AFD57C0D /* Pods-Orion Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orion Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orion Contacts/Pods-Orion Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		AE0C3332569D0118E09A15C1 /* Pods_Orion_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orion_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF26D79A1D0548D500D794AD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FF4F45FC1D056EFA00C5B7C1 /* UtilMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilMethods.swift; sourceTree = "<group>"; };
 		FF5C7E931D00B00900182DCE /* Orion Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orion Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5C7E961D00B00900182DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF5C7E981D00B00900182DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF5C7E9B1D00B00900182DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF5C7E9D1D00B00900182DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF5C7EA01D00B00900182DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5C7EA21D00B00900182DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5C7EAE1D00B50000182DCE /* OrionContactsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrionContactsDataModel.swift; sourceTree = "<group>"; };
+		FFB810AC1D02D7F500AC3E29 /* ContactsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
+		FFB810AE1D02D80C00AC3E29 /* ContactDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		FFB810B11D02D86300AC3E29 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		FFC0B7911D02EB9500DC5BA2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Alamofire.framework; path = "/Users/prajaktakulkarni/Library/Developer/Xcode/DerivedData/Orion_Contacts-gcfzirxwrmypedgogsuhpnrnweaj/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<absolute>"; };
+		FFC0B7941D02EB9500DC5BA2 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Eureka.framework; path = "/Users/prajaktakulkarni/Library/Developer/Xcode/DerivedData/Orion_Contacts-gcfzirxwrmypedgogsuhpnrnweaj/Build/Products/Debug-iphonesimulator/Eureka.framework"; sourceTree = "<absolute>"; };
+		FFC0B7971D02EB9500DC5BA2 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ObjectMapper.framework; path = "/Users/prajaktakulkarni/Library/Developer/Xcode/DerivedData/Orion_Contacts-gcfzirxwrmypedgogsuhpnrnweaj/Build/Products/Debug-iphonesimulator/ObjectMapper.framework"; sourceTree = "<absolute>"; };
+		FFC0B79A1D02EB9500DC5BA2 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ReachabilitySwift.framework; path = "/Users/prajaktakulkarni/Library/Developer/Xcode/DerivedData/Orion_Contacts-gcfzirxwrmypedgogsuhpnrnweaj/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework"; sourceTree = "<absolute>"; };
+		FFC0B79D1D02EB9500DC5BA2 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Realm.framework; path = "/Users/prajaktakulkarni/Library/Developer/Xcode/DerivedData/Orion_Contacts-gcfzirxwrmypedgogsuhpnrnweaj/Build/Products/Debug-iphonesimulator/Realm.framework"; sourceTree = "<absolute>"; };
+		FFC0B7A01D02EB9500DC5BA2 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = RealmSwift.framework; path = "/Users/prajaktakulkarni/Library/Developer/Xcode/DerivedData/Orion_Contacts-gcfzirxwrmypedgogsuhpnrnweaj/Build/Products/Debug-iphonesimulator/RealmSwift.framework"; sourceTree = "<absolute>"; };
+		FFC0B7A31D02EB9500DC5BA2 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SVProgressHUD.framework; path = "/Users/prajaktakulkarni/Library/Developer/Xcode/DerivedData/Orion_Contacts-gcfzirxwrmypedgogsuhpnrnweaj/Build/Products/Debug-iphonesimulator/SVProgressHUD.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +70,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC0B79E1D02EB9500DC5BA2 /* Realm.framework in Frameworks */,
+				FFC0B7951D02EB9500DC5BA2 /* Eureka.framework in Frameworks */,
+				FFC0B7A41D02EB9500DC5BA2 /* SVProgressHUD.framework in Frameworks */,
+				FFC0B7A11D02EB9500DC5BA2 /* RealmSwift.framework in Frameworks */,
+				0CDDD38B64C664D0EE925A38 /* Pods_Orion_Contacts.framework in Frameworks */,
+				FFC0B7981D02EB9500DC5BA2 /* ObjectMapper.framework in Frameworks */,
+				FFC0B79B1D02EB9500DC5BA2 /* ReachabilitySwift.framework in Frameworks */,
+				FFC0B7921D02EB9500DC5BA2 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		677F84EF434F43EA5B4BBB4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3332569D0118E09A15C1 /* Pods_Orion_Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		915A9D22F83BE9B45E368DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17EA07E995AD1BA4118F4431 /* Pods-Orion Contacts.debug.xcconfig */,
+				8275A60D6AE45A50AFD57C0D /* Pods-Orion Contacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF26D7991D0548C000D794AD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FF26D79A1D0548D500D794AD /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		FF4F45FB1D056EE600C5B7C1 /* Utility Methods */ = {
+			isa = PBXGroup;
+			children = (
+				FF4F45FC1D056EFA00C5B7C1 /* UtilMethods.swift */,
+			);
+			name = "Utility Methods";
+			sourceTree = "<group>";
+		};
 		FF5C7E8A1D00B00900182DCE = {
 			isa = PBXGroup;
 			children = (
 				FF5C7E951D00B00900182DCE /* Orion Contacts */,
 				FF5C7E941D00B00900182DCE /* Products */,
+				915A9D22F83BE9B45E368DC1 /* Pods */,
+				677F84EF434F43EA5B4BBB4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +138,91 @@
 		FF5C7E951D00B00900182DCE /* Orion Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				FF5C7E961D00B00900182DCE /* AppDelegate.swift */,
-				FF5C7E981D00B00900182DCE /* ViewController.swift */,
+				FF26D7991D0548C000D794AD /* Constants */,
+				FF5C7EA91D00B46100182DCE /* App Delegate */,
+				FF5C7EA81D00B45500182DCE /* Storyboard */,
+				FF5C7EAA1D00B46D00182DCE /* Controllers */,
+				FF5C7EAC1D00B49D00182DCE /* Database */,
+				FF4F45FB1D056EE600C5B7C1 /* Utility Methods */,
+				FF5C7EAB1D00B47F00182DCE /* Resources */,
+			);
+			path = "Orion Contacts";
+			sourceTree = "<group>";
+		};
+		FF5C7EA81D00B45500182DCE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				FF5C7E9A1D00B00900182DCE /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		FF5C7EA91D00B46100182DCE /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C7E961D00B00900182DCE /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		FF5C7EAA1D00B46D00182DCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C7EB01D00B51500182DCE /* Contacts List */,
+				FF5C7EB11D00B51C00182DCE /* Contact Details */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FF5C7EAB1D00B47F00182DCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				FF5C7E9D1D00B00900182DCE /* Assets.xcassets */,
 				FF5C7E9F1D00B00900182DCE /* LaunchScreen.storyboard */,
 				FF5C7EA21D00B00900182DCE /* Info.plist */,
 			);
-			path = "Orion Contacts";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF5C7EAC1D00B49D00182DCE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C7EAD1D00B4B700182DCE /* Model */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		FF5C7EAD1D00B4B700182DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C7EAE1D00B50000182DCE /* OrionContactsDataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF5C7EB01D00B51500182DCE /* Contacts List */ = {
+			isa = PBXGroup;
+			children = (
+				FFB810AC1D02D7F500AC3E29 /* ContactsList.swift */,
+				FFB810B01D02D83600AC3E29 /* Contact Cell */,
+			);
+			name = "Contacts List";
+			sourceTree = "<group>";
+		};
+		FF5C7EB11D00B51C00182DCE /* Contact Details */ = {
+			isa = PBXGroup;
+			children = (
+				FFB810AE1D02D80C00AC3E29 /* ContactDetails.swift */,
+			);
+			name = "Contact Details";
+			sourceTree = "<group>";
+		};
+		FFB810B01D02D83600AC3E29 /* Contact Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFB810B11D02D86300AC3E29 /* ContactCell.swift */,
+			);
+			name = "Contact Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +232,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF5C7EA51D00B00900182DCE /* Build configuration list for PBXNativeTarget "Orion Contacts" */;
 			buildPhases = (
+				573FCE17C3F25369EADDCF08 /* Check Pods Manifest.lock */,
 				FF5C7E8F1D00B00900182DCE /* Sources */,
 				FF5C7E901D00B00900182DCE /* Frameworks */,
 				FF5C7E911D00B00900182DCE /* Resources */,
+				83D2E135DF7D1013EDF9B97C /* Embed Pods Frameworks */,
+				9AAD8A709B3BBCE28B016C5C /* Copy Pods Resources */,
+				FFC0B7A61D02EB9600DC5BA2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +261,7 @@
 				TargetAttributes = {
 					FF5C7E921D00B00900182DCE = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DUXG8V348H;
 					};
 				};
 			};
@@ -130,13 +296,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		573FCE17C3F25369EADDCF08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83D2E135DF7D1013EDF9B97C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orion Contacts/Pods-Orion Contacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AAD8A709B3BBCE28B016C5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orion Contacts/Pods-Orion Contacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF5C7E8F1D00B00900182DCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF5C7E991D00B00900182DCE /* ViewController.swift in Sources */,
+				FFB810B21D02D86300AC3E29 /* ContactCell.swift in Sources */,
 				FF5C7E971D00B00900182DCE /* AppDelegate.swift in Sources */,
+				FFB810AF1D02D80C00AC3E29 /* ContactDetails.swift in Sources */,
+				FF5C7EAF1D00B50000182DCE /* OrionContactsDataModel.swift in Sources */,
+				FFB810AD1D02D7F500AC3E29 /* ContactsList.swift in Sources */,
+				FF26D79B1D0548D500D794AD /* Constants.swift in Sources */,
+				FF4F45FD1D056EFA00C5B7C1 /* UtilMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +468,33 @@
 		};
 		FF5C7EA61D00B00900182DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EA07E995AD1BA4118F4431 /* Pods-Orion Contacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Orion Contacts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dhirajjadhao.Orion-Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		FF5C7EA71D00B00900182DCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8275A60D6AE45A50AFD57C0D /* Pods-Orion Contacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Orion Contacts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dhirajjadhao.Orion-Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +517,7 @@
 				FF5C7EA71D00B00900182DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

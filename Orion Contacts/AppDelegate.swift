@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Activity Indicator Setup
+        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.None)
+        SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.Custom)
+        SVProgressHUD.setBackgroundColor(UIColor.darkGrayColor())
+        SVProgressHUD.setForegroundColor(UIColor.whiteColor())
+
+        
         return true
     }
 
